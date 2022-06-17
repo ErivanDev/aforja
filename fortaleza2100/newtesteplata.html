@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./teste.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <!--<script src="jquery-1.11.3.min"></script>-->
+  <!-- particles.js container --> 
+  <!-- stats - count particles --> 
+  <script language="javascript" type="text/javascript" src="p5.js"></script>
+  <script language="javascript" type="text/javascript" src="p5.dom.js"></script>
+  <script language="javascript" type="text/javascript" src="p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="fullscreen.js"></script>
+  <script language="javascript" type="text/javascript" src="fases.js"></script>
+  <script language="javascript" type="text/javascript" src="newtesteplata.js"></script>
+</head>
+
+<body>
+  <div  id="fala" class="relative">
+    <div id="contener" class="infogame">
+    </div>
+    <div id="tela" style="display:none; background: #ffffff";> 
+      <div class="gallery autoplay items-4" id="imagens">
+        <div id="item-1" class="control-operator"></div>
+        <div id="item-2" class="control-operator"></div>
+        <div id="item-3" class="control-operator"></div>
+        <div id="item-4" class="control-operator"></div>
+        
+        <figure class="item">
+          <img id="imageOne" src="" class="imgGallery" style="display:none;">
+        </figure>
+
+        <figure class="item">
+          <img id="imageTwo" src="" class="imgGallery" style="display:none;">
+        </figure>
+
+        <figure class="item">
+          <img id="imageThree" src="" class="imgGallery" style="display:none;">
+        </figure>
+
+        <figure class="item">
+          <img id="imageFour" src="" class="imgGallery" style="display:none;">
+        </figure>
+
+        <div class="controls">
+          <a href="#item-1" class="control-button">•</a>
+          <a href="#item-2" class="control-button">•</a>
+          <a href="#item-3" class="control-button">•</a>
+          <a href="#item-4" class="control-button">•</a>
+        </div>
+      </div>
+        
+      <div class="video">
+        <iframe id="myiframe" src="" class="imgGallery" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+      </div>
+          
+      <div class="texto" style="padding-left: 20px; padding-right: 20px;background: #cccccc">
+        <h1 id="title" align="center"></h1>
+        <p id="informacao" align="justify"></p>
+      </div>
+
+      <button class="button" onclick="voltar()" ></button> 
+    </div>
+  </div>
+</body>
